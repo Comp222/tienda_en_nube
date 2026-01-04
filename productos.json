@@ -1,0 +1,181 @@
+[
+  {
+    "nombre": "Laptop HP 14",
+    "descripcion": "Laptop HP 240 G8 HD Core i5 RAM 8GB SSD 512GB",
+    "precio": 11999,
+    "imagen": "https://i5.walmartimages.com/asr/2e49ce09-1ec1-4632-b73f-d02d5ef3b579.82e126c7957a13a46cd8b7cd3aea9a6e.png?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Laptops"
+  },
+  {
+    "nombre": "PC Gamer Ryzen",
+    "descripcion": "Ryzen 5, 16GB RAM, RTX 3060",
+    "precio": 22499,
+    "imagen": "data:image/jpeg;base64,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",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Monitor Samsung 24",
+    "descripcion": "Monitor Samsung 24 Pulgadas Full HD Monitor Plano",
+    "precio": 3299,
+    "imagen": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00880609478499L.jpg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Monitores"
+  },
+  {
+    "nombre": "Teclado Mecánico RGB",
+    "descripcion": "Teclado Mecánico Dragon Pro Select Power SG-T1",
+    "precio": 799,
+    "imagen": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00750303033252L.jpg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Teclados"
+  },
+  {
+    "nombre": "Mouse Gamer",
+    "descripcion": "Mouse Inalámbrico Logitech M280 Negro",
+    "precio": 749,
+    "imagen": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00009785510743L.jpg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Accesorios"
+  },
+  {
+    "nombre": "SSD Kingston 480GB",
+    "descripcion": "SATA III, 2.5\", 500MB/s",
+    "precio": 999,
+    "imagen": "data:image/jpeg;base64,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",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Laptop Dell Inspiron ",
+    "descripcion": "Laptop Dell Inspiron 3520 Core i7, RAM 16 GB, SSD 512 GB",
+    "precio": 13699,
+    "imagen": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQxFdDbe0UPIcBLUVr-oIIM96n8FQRzALLUeTdOGdyJRax0YKLvacqh-oXgWMTvXmu00jOsrx_IFtd1McGzXN4WYRhJmSV4_Kbz0dqJBtknYVoM4IqjLQvaKwXqRZUiNgnIpWf-2qI&usqp=CAc",
+    "categoria": "Laptops"
+  },
+  {
+    "nombre": "Laptop Dell Inspiron ",
+    "descripcion": "Laptop DELL Inspiron AMD Ryzen 5 7520U RAM 8GB 512GB",
+    "precio": 7499,
+    "imagen": "https://i5.walmartimages.com/asr/e7e4175b-48f7-4cbd-afae-da59a1e701fa.6b8c44dd1bd525c36010aae60c697eaf.jpeg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Laptops"
+  },
+  {
+    "nombre": "Laptop Dell Inspiron ",
+    "descripcion": "Laptop DELL Inspiron 15 Procesador Intel Core i5 ",
+    "precio": 11999,
+    "imagen": "https://i5.walmartimages.com/asr/4bc6b9ff-f68d-4d41-b7dd-afb4194c3912.19d2f75784c5108e36b8bab984004047.jpeg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Laptops"
+  },
+  {
+    "nombre": "Laptop Dell Inspiron ",
+    "descripcion": "Laptop Dell Inspiron 15 3530 Intel CI5-1335U 16GB 512GB SSD FHD W11H Negro",
+    "precio": 9999,
+    "imagen": "https://i5.walmartimages.com/asr/1d476930-e75e-45a6-b3da-b43b84aae6e4.721a195f1e0dd79448a1eccebc9608b1.jpeg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Laptops"
+  },
+  {
+    "nombre": "Laptop Toshiba DynaBook",
+    "descripcion": "Laptop Toshiba DynaBook i5 10ma Gen 16GB RAM 240GB SSD Pantalla Touch",
+    "precio": 12750,
+    "imagen": "https://i5.walmartimages.com/asr/2f0b8bc7-7b46-4ecb-884d-a74fed3e496f.33f9323a75ac3a15a2786a78e799e8b0.png?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Laptops"
+  },
+  {
+    "nombre": "Laptop Lenovo",
+    "descripcion": "Laptop Lenovo IdeaPad IP Slim3 15AMN8 R5 8 GB RAM 512 GB SSD Azul",
+    "precio": 7649,
+    "imagen": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00019680381036l.jpg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Laptops"
+  },
+  {
+    "nombre": "Laptop HP",
+    "descripcion": "Laptop HP Pavilion Core i5/8 GB RAM/512 GB SSD 15",
+    "precio": 10850,
+    "imagen": "https://i5.walmartimages.com.mx/samsmx/images/product-images/img_large/981030009-1l.jpg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Laptops"
+  },
+  {
+    "nombre": "Monitor LG",
+    "descripcion": "Monitor 24 pulgadas Gaming LG UltraGear FHD",
+    "precio": 2830,
+    "imagen": "https://i5.walmartimages.com/asr/346df53a-f73d-474a-a5ef-9e0f3befca5d.96f91426176f32dfcc350a8f149a6b8a.jpeg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Monitores"
+  },
+  {
+    "nombre": "Monitor LG",
+    "descripcion": "Monitor LG 32mn50w-b 32'' Full Hd Vga Hdmi Amd Freesync",
+    "precio": 3900,
+    "imagen": "https://i5.walmartimages.com/asr/81faa255-8d82-4d50-b812-63760bd31cb9.e022c73cea91864df2986aaa81b41f64.jpeg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Monitores"
+  },
+  {
+    "nombre": "Monitor LG",
+    "descripcion": "MONITOR LG 24MR400 B 23.8 100HZ IPS FULL HD",
+    "precio": 1559,
+    "imagen": "https://i5.walmartimages.com/asr/44dfb9a4-97c5-4639-a27a-19b20f9f35c3.6394c6631253864c00ac639c5708738b.jpeg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Monitores"
+  },
+  {
+    "nombre": "Monitor LG",
+    "descripcion": "Monitor Samsung M5 FHD",
+    "precio": 3681,
+    "imagen": "https://i5.walmartimages.com.mx/samsmx/images/product-images/img_large/981033024l.jpg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Monitores"
+  },
+  {
+    "nombre": "Teclado Mecánico RGB ",
+    "descripcion": "Teclado Mecánico Dragon Pro Select Power SG-T1",
+    "precio": 999,
+    "imagen": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00750303033252L.jpg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Teclados"
+  },
+  {
+    "nombre": "Teclado Mecánico RGB ",
+    "descripcion": "Teclado Gamer NEXTEP DRAGON XT Semi Mecanico RGB USB Negro NE-484",
+    "precio": 600,
+    "imagen": "https://i5.walmartimages.com/asr/44faf0a5-8fc0-464d-b691-156604d90985.0f3325c54060111b209a865e0fcd87c9.jpeg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Teclados"
+  },
+  {
+    "nombre": "Teclado Mecánico RGB ",
+    "descripcion": "Teclado Gamer Mecanico Switch Azul Multicolor GameFactor KBG400-BL",
+    "precio": 1500,
+    "imagen": "https://i5.walmartimages.com/asr/b46a751f-f785-4706-ac38-f8f504942401.97c0d0f95eee02fc37d2e281b7056b13.jpeg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Teclados"
+  },
+  {
+    "nombre": "Mouse Gamer ",
+    "descripcion": "Mouse gamer Acer NMW200 Nitro Negro",
+    "precio": 699,
+    "imagen": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00019513316720l.jpg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Accesorios"
+  },
+  {
+    "nombre": "Mouse Gamer ",
+    "descripcion": "Mouse Óptico Inalámbrico Perfect Choice negro",
+    "precio": 640,
+    "imagen": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00061560404475L.jpg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Accesorios"
+  },
+  {
+    "nombre": "Mouse Gamer ",
+    "descripcion": "Mouse Game Factor 19,000 DPI RGB Blanco",
+    "precio": 700,
+    "imagen": "https://i5.walmartimages.com.mx/samsmx/images/product-images/img_large/981023222l.jpg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Accesorios"
+  },
+  {
+    "nombre": "Silla",
+    "descripcion": "Silla Gamer Trust GXT 701 Ryon Blanca & Negro",
+    "precio": 2200,
+    "imagen": "https://i5.walmartimages.com.mx/samsmx/images/product-images/img_large/981012682l.jpg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Muebles"
+  },
+  {
+    "nombre": "Silla",
+    "descripcion": "Silla Gaming TITANO con Reposapies y Luz LED",
+    "precio": 2349,
+    "imagen": "https://i5.walmartimages.com/asr/58428ac2-cee7-4ff5-b002-50d93d9b5645.d5a55ea29d6af5907fef901354805636.png?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+    "categoria": "Muebles"
+  }
+]
+
+
+
+

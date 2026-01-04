@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="registro.html">Registro</a>
+    <a href="login.html">Login</a>
+    <a href="carrito.html">Carrito</a>
+    <a href="#" onclick="cerrarSesion()">Cerrar sesión</a>
+</nav>
+
+<h2 id="bienvenida"></h2>
+<div style="text-align: center;">
+    <label for="filtro">Filtrar por categoría:</label>
+    <select id="filtro">
+        <option value="Todos">Todos</option>
+        <option value="Laptops">Laptops</option>
+        <option value="Monitores">Monitores</option>
+        <option value="Teclados">Teclados</option>
+        <option value="Accesorios">Accesorios</option>
+        <option value="Muebles">Muebles</option>
+        <option value="Otros">Otros</option>
+    </select>
+</div>
+
+<div id="productos"></div>
+<div id="paginacion" style="text-align: center; margin-bottom: 20px;"></div>
+
+<script src="cerrar_sesion.js"></script>
+<script>
+    const session = JSON.parse(localStorage.getItem("session"));
+    if (!session) {
+        window.location.href = "login.html";
+    } else {
+        document.getElementById("bienvenida").innerText = "Bienvenido, " + session.name;
+    }
+
+    let productos = [];
+    let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+    let paginaActual = 1;
+    const productosPorPagina = 6;
+
+    document.getElementById("filtro").addEventListener("change", () => {
+        paginaActual = 1;
+        mostrarProductos();
+    });
+
+    function agregarAlCarrito(producto) {
+        carrito.push(producto);
+        localStorage.setItem("carrito", JSON.stringify(carrito));
+        alert(producto.nombre + " fue añadido al carrito.");
+    }
+
+    function mostrarProductos() {
+        const filtro = document.getElementById("filtro").value;
+        let productosFiltrados = filtro === "Todos" ? productos : productos.filter(p => p.categoria === filtro);
+
+        const inicio = (paginaActual - 1) * productosPorPagina;
+        const paginados = productosFiltrados.slice(inicio, inicio + productosPorPagina);
+
+        const contenedor = document.getElementById("productos");
+        contenedor.innerHTML = "";
+
+        paginados.forEach(producto => {
+            const div = document.createElement("div");
+            div.innerHTML = `
+                <img src="${producto.imagen}" alt="${producto.nombre}" style="width:100%; height:auto; border-radius: 10px;">
+                <h3>${producto.nombre}</h3>
+                <p>${producto.descripcion}</p>
+                <p>Precio: $${producto.precio}</p>
+                <button onclick='agregarAlCarrito(${JSON.stringify(producto)})'>Añadir al carrito</button>
+            `;
+            contenedor.appendChild(div);
+        });
+
+        mostrarPaginacion(productosFiltrados.length);
+    }
+
+    function mostrarPaginacion(totalProductos) {
+        const totalPaginas = Math.ceil(totalProductos / productosPorPagina);
+        const paginacion = document.getElementById("paginacion");
+        paginacion.innerHTML = "";
+
+        for (let i = 1; i <= totalPaginas; i++) {
+            const btn = document.createElement("button");
+            btn.innerText = i;
+            btn.style.margin = "0 5px";
+            btn.onclick = () => {
+                paginaActual = i;
+                mostrarProductos();
+            };
+            if (i === paginaActual) {
+                btn.style.fontWeight = "bold";
+                btn.style.background = "#3498db";
+                btn.style.color = "white";
+            }
+            paginacion.appendChild(btn);
+        }
+    }
+
+    fetch("productos.json")
+        .then(res => res.json())
+        .then(data => {
+            productos = data;
+            mostrarProductos();
+        });
+</script>
+</body>
+</html>
